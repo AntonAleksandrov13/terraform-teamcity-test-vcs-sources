@@ -24,4 +24,4 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 
 version = "2024.12"
 
-project(_Self.ProjectFromVCS)
+project(_Self.CurrentProject)

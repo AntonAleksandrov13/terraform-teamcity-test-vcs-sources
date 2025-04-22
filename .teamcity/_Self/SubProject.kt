@@ -2,6 +2,6 @@ package _Self
 
 import jetbrains.buildServer.configs.kotlin.Project
 
-object CurrentProject : Project({
-    subProject(SubProjectC)
+object SubProjectC : Project({
+    buildType(Build)
 })
