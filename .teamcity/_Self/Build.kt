@@ -8,9 +8,8 @@ object Build : BuildType({
 
     steps {
         script {
-            name = "Sleep 30"
+            name = "Do stuff"
             scriptContent = """
-                set -euxo pipefail
                 sleep 30
             """.trimIndent()
         }
